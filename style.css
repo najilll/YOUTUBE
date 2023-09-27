@@ -259,3 +259,14 @@ nav {
         width: 750px;
     } 
 }
+@media screen and (max-width:390px) {
+    .bg-bar-grid{
+        width: 15%;
+    }
+}
+@media screen and (max-width:400px) {
+    nav{
+        width: 102%;
+    }
+}
+
