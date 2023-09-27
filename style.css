@@ -1,0 +1,261 @@
+*{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+nav {
+    height: 7vh;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.youtube-navbar-logo {
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.nav-middle {
+    display: flex;
+}
+
+.search-input {
+    width: 500px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: 1px solid rgb(241, 235, 235);
+    padding-left: 30px;
+    color: #fff;
+}
+
+.search-button {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-left: 0;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: rgb(247, 242, 242);
+    color: #fff;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.user-profile {
+    width: 30px;
+    border-radius: 40px;
+    margin-bottom: 5px;
+}
+
+.nav-item-gap {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ft-sz {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.phone-screen-search {
+    display: none;
+}
+
+.list-icon-hide {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.profile img{
+    border-radius: 50px;
+    width: 27px;
+}
+.icons i{
+    color: #fff;
+}
+.search-bar{
+    width: 37%;
+}
+.search-bar input{
+    border-radius: 24px 4px 0px 24px;
+    background-color: transparent;
+    width: 85%;
+    height: 4vh;
+    color: #fff;
+    padding-left: 10px;
+}
+.button button{
+    border-radius: 3px 11px 10px 3px;
+    width: 54px;
+    color: #fff;
+
+}
+.logo button{
+    border: none;
+    
+}
+.logo i{
+    font-size: x-large;
+}
+.side-bar{
+    width: 250px;
+    height: 90vh;
+    background-color: #050505;
+    padding-left: 22px;
+    padding-top: 16px;
+    color: #fff;
+    padding-right: 22px;
+    position: fixed;
+}
+.side-bar button{
+    width: 200px;
+    background-color: rgb(8, 8, 8);
+    border: none;
+    text-align: left;
+
+}
+.side-bar button:hover{
+    background-color: #585757;
+}
+.cards{
+    margin-top: 27px;
+    margin-left: 27px;
+    width: 100%;
+    z-index: 1;
+}
+.cards button{
+    width: 100%;
+    background-color: rgb(70, 65, 75);
+    border: none;
+}
+.p{
+    height: 2vh;
+}
+.grid-contents{
+    width: 100%;
+    margin-left: 16%;
+}
+.bg-bar-grid{
+    width: 98%;
+    display: flex;
+}
+.card-body img{
+    border-radius: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .buttons{
+        display: none;
+    }
+    .grid-contents{
+        margin-left: 4%;
+    }
+}
+@media screen and (max-width:500px) {
+   
+    .button{
+        border-radius: 58px;
+    margin-left: 89px;
+    }
+}
+@media screen and (max-width:400px) {
+    .icons{
+        margin-left: 27px;
+    }
+   
+}
+@media (max-width:321px) {
+    .youtube-navbar-logo {
+        width: 75px;
+        height: 18px;
+        margin-bottom: 0px;
+        margin-top: 4px;
+    }
+
+    .nav-item-gap {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .ft-sz {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .margin-top-class {
+        margin-top: 3px;
+    }
+
+    .user-profile {
+        width: 30px;
+        border-radius: 40px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+}
+
+@media (max-width: 426px) {
+    .list-icon-hide {
+        display: none;
+    }
+
+    .phone-screen-search {
+        display: block;
+    }
+
+    .nav-middle {
+        display: none;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+    .search-input {
+        width: 350px;
+    } 
+}
+
+@media (min-width: 770px) and (max-width: 1025px) {
+    .search-input {
+        width: 550px;
+    } 
+}
+
+@media (min-width: 1026px) and (max-width: 1441px) {
+    .search-input {
+        width: 750px;
+    } 
+}
